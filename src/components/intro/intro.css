@@ -23,6 +23,13 @@
     justify-content: space-between;
 }
 
+.quote{
+    position: absolute;
+    top: 40px;
+    font-weight: 450;
+}
+
+
 .i-intro
 {
     font-size: 30px;
@@ -99,6 +106,13 @@
     .i-desc{
         display: none;
     }
+    .quote{
+        position: absolute;
+        top: 20px;
+        font-weight: 400;
+        font-size: 14px;
+    }
+    
 }
 
 

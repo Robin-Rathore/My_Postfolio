@@ -6,7 +6,7 @@ const About = () => {
         <div className="a-left" data-aos="fade-up">
             <div className="a-card bg"></div>
             <div className="a-card">
-                <img src="./myimg/robin2.jpg" alt="" className="a-img" />
+                <img src="./myimg/robin2.jpeg" alt="" className="a-img" />
             </div>
         </div>
         <div className="a-right" data-aos="fade-up-left">
@@ -16,16 +16,32 @@ const About = () => {
                 distracted by a readable content.
             </p>
             <p className="a-desc">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem maxime soluta iusto
-                 quod a deleniti enim omnis iste. Veritatis sit a architecto dignissimos officia possimus 
-                 dolore corrupti magni dolor quisquam ex maxime totam repudiandae, vel laudantium amet quod
-                 culpa ipsam iure optio, explicabo voluptates! Accusantium ea, ipsam quam, quod perspiciatis
-                 expedita dolores laborum, nemo non maiores molestias? Harum, repellat provident?
-            </p>
+    Namaste! I'm Robin Rathore, a dedicated BTech Computer Science undergrad with expertise in web development. Proficient in ReactJS, Sass, Bootstrap, JavaScript, CSS, HTML, I craft seamless user experiences.
+
+    <strong>Technical Skills</strong>
+
+    <ul>
+        <li>Web Development:</li>
+        <ul>
+            <li>Frontend: ReactJS, Sass, Bootstrap, JavaScript, CSS, HTML.</li>
+            <li>Backend: Firebase, MongoDB, ExpressJS, NodeJS.</li>
+            <li>Database: MongoDB.</li>
+            <li>Server: ExpressJS, NodeJS.</li>
+        </ul>
+        <li>Programming Languages: C, C++, Python.</li>
+        <li>Data Structures & Algorithms: DSA.</li>
+    </ul>
+
+    Passionate about problem-solving, I approach challenges systematically. Strong communication and interpersonal skills enhance collaboration. A lifelong learner, I explore diverse topics and contribute creatively to projects.
+
+    Beyond tech, I'm a cooking enthusiast. 
+    Let's connect for collaboration or knowledge sharing in the dynamic tech landscape!
+</p>
+
             <div className="a-award">
                 <img src="./myimg/award.jpg" alt="" className="a-award-img" />
                 <div className="a-award-text">
-                    <h4 className="a-award-title">Bharat Ratna</h4>
+                    <h4 className="a-award-title">Head Boy</h4>
                     <p className="a-award-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora porro, reiciendis amet accusantium dignissimos qui?</p>
                 </div>
             </div>

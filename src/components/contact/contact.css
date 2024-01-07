@@ -1,5 +1,5 @@
 .c{
-    height: 100vh;
+    height: 100%;
     position: relative;
 }
 
@@ -59,6 +59,7 @@ input{
     width: 50%;
     height: 50px;
     border: none;
+    outline: none;
     border-bottom: 1px solid black;
     margin: 10px 0px;
     font-size: 14px;
@@ -70,6 +71,7 @@ textarea{
     margin: 10px 0px;
     font-size: 14px;
     padding-left: 10px;
+    outline: none;
 }
 
 button{
@@ -79,6 +81,21 @@ button{
     color: white;
     font-weight: 500;
     cursor: pointer;
+}
+.resume{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    width: 170px;
+    height: 60px;
+    background-color: #59b256;
+    border-radius: 20px;
+}
+.res_link{
+    text-decoration: none;
+    color: white;
 }
 
 @media screen and (max-width: 480px){
